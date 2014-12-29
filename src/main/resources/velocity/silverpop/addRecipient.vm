@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Envelope> 
+<Body>
+<AddRecipient> 
+	<LIST_ID>$listId</LIST_ID>
+	<CREATED_FROM>1</CREATED_FROM>
+	<UPDATE_IF_FOUND>true</UPDATE_IF_FOUND>
+	<COLUMN> 
+		<NAME>EMAIL</NAME>
+		<VALUE>$email</VALUE> 
+	</COLUMN>
+	<COLUMN> 
+		<NAME>NEWSLETTER_ID</NAME>
+		<VALUE>$newsletterId</VALUE> 
+	</COLUMN>
+</AddRecipient> 
+</Body>
+</Envelope>

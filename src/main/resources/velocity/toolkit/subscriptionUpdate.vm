@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<newsletterSubscriptionsRequest email="$email">
+  <entryContext#if($application) application="$application"#end formName="$form" siteCode="$siteCode"#if($ip) ip="$ip"#end#if($referer) referer="$referer"#end#if($sourceCode) sourceCode="$sourceCode"#end#if($url) url="$url"#end />
+   <newsletterSubscriptions>
+      <newsletterSubscription newsletterId="$newsletterId" subscribe="$subscribe" />
+   </newsletterSubscriptions>
+</newsletterSubscriptionsRequest>
